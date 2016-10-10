@@ -17,13 +17,11 @@ gcc -o hash hash.c
 ```{r, engine='bash'}
 ./hash -g
 ```
-Gera arquivo de índice.
-  
+Gera arquivo de índice.  
 ```{r, engine='bash'}
 ./hash -s
 ```
-Mosta estatísticas do índice. 
-  
+Mosta estatísticas do índice.   
 ```{r, engine='bash'}
 ./hash CEP
 ```
