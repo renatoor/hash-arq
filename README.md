@@ -3,6 +3,9 @@ Trabalho para a disciplina Organização e estrutura de arquivos.
 Professor: Renato Mauro  
 CEFET/RJ - Campus Maracanã
 
+##Sobre
+O trabalho consiste na criação de um índice utilizando uma função de hash aplicada sobre os CEPs contidos em um arquivo de amostra fornecido pelo professor.  
+
 ##Compilação
 ```{r, engine='bash'}
 gcc -o hash hash.c
@@ -18,6 +21,6 @@ Gera arquivo de índice.
 ```
 Mosta estatísticas do índice.  
 ```{r, engine='bash'}
-./hash < CEP >
+./hash <CEP>
 ```
-Procura CEP passado por argumento de linhas de comando.
+Procura CEP passado como argumento por linha de comando.
