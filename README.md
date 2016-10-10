@@ -25,7 +25,7 @@ Mosta estatísticas do índice.
 ```{r, engine='bash'}
 ./hash CEP
 ```
-Procura CEP passado como argumento por linha de comando.  
+Procura o CEP passado como argumento por linha de comando.  
 OBS: deve-se gerar o arquivo de índice antes.
 
 ##Estatísticas
